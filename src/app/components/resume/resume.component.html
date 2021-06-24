@@ -1,0 +1,126 @@
+<!--s barra de navegación-->
+<nav class="navbar navbar-expand-md navbar-light bg-info sticky-top">
+
+    <!--Menú navegable-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-link" (click)="scrollTrigger('perfil')" ><b>Perfil</b></a>
+            <a class="nav-link" (click)="scrollTrigger('estudios')" ><b>Estudios</b></a>
+            <a class="nav-link" (click)="scrollTrigger('habilidades')"><b>Habilidades</b></a>  
+            <a class="nav-link" (click)="scrollTrigger('contactame')"><b>Contáctame</b></a>
+        </div>
+    </div>
+
+</nav>
+
+<!--Perfil-->
+<div id = "perfil" class="container-fluid d-flex flex justify-content-center">
+
+    <div class="card m-5 bg-info" style="width: 430px">
+        <img src="../assets/img/foto.jpg" class="rounded m-3 img-fluid img-size" alt="Responsive image" style="width: 300px;">
+    </div>
+
+    <div class="card m-5 text-center bg-white text-dark  border border-info" style="width: 900px">
+        <br>
+        <br>
+        <h1><b>Cyndi Julieth Martínez</b>
+        </h1>
+        <br>
+        <br>
+            <h4>Ingeniera de sistemas con formación reciente en desarrollo web tanto en Frontend como en Backend que también posee conocimientos en metodologías ágiles Scrum. 
+                Dispone competencias de facilidad de aprendizaje, compromiso laboral y liderazgo.
+            </h4>
+        <br>
+    </div>
+
+</div>
+
+<!--Estudios-->
+<div id="estudios" class="container-fluid d-flex flex justify-content-center">
+
+    <div class="card m-5 p-3 text-center">
+        <br>
+        <br>
+        <h4><b>Ingeniería de sistemas</b>
+        </h4>
+            <br> 
+            Fundación Universitaria Panamericana, 
+            Bogotá-2019
+        <img src="../assets/img/tecnosis.jpg" class="rounded m-3 img-fluid img-size" alt="Responsive image">
+    </div>
+
+    <div class="card m-5 p-3 text-center">
+        <h4><b>Diplomado en lenguaje de programación Frontend</b>
+        </h4>
+            <br> 
+            Alianza CET Colsubsidio - Bictia,
+            Bogotá-2021
+        <img src="../assets/img/frontend.jpg" class="rounded m-3 img-fluid img-size" alt="Responsive image">    
+    </div>
+
+    <div class="card m-5 p-3 text-center">
+        <h4><b>Diplomado en lenguaje de programación Backend</b> 
+        </h4>
+            <br> 
+            Alianza CET Colsubsidio - Bictia,
+            Bogotá-2021
+        <img src="../assets/img/backend.jpg" class="rounded m-3 img-fluid img-size" alt="Responsive image">
+    </div>
+
+</div>
+
+<!--Habilidades-->
+<div id="habilidades" class="container-fluid d-flex flex justify-content-center">
+
+    <div class="card m-5 text-center">
+        <br>
+        <h3><b>Herramientas manejadas</b>
+        </h3>
+        <img src="../assets/img/herramientas.png" class="rounded m-3 img-fluid img-size" alt="Responsive image">        
+    </div>
+
+    <div class="card m-5 p-3 text-center">
+        <h3><b>Mis proyectos y CV</b>
+        </h3>
+
+        <a class="btn btn-danger mt-5" target="_blank"href= "https://drive.google.com/file/d/1CNazvOOlyGlwe0jkmfw5aYhFY32686IV/view?usp=sharing">Ver CV</a>
+        <br>
+        <a class="btn btn-danger mt-5" target="_blank"href= "https://angelicavelandia00.github.io/Proyecto_Grupo">Ver Proyecto FrontEnd</a>
+        <br>
+        <a class="btn btn-danger mt-5" target="_blank"href= "https://github.com/cjmartinez2212/proyectoFinal">Ver Repositorio BackEnd</a>    
+    </div>
+
+</div>
+
+<!--s footer-->
+<div id="contactame" class="card">
+
+    <!--encabezado footer-->
+    <div class="card-header bg-info">
+        <h2 class="card-title text-center text-light">Encuéntrame en...</h2>
+    
+        <!--cuerpo footer-->
+        <div class="text-center">
+
+            <a target="_blank" href="https://www.linkedin.com/in/cyndi-julieth-martinez-91673a215/">
+                <img src="../assets/img/linkedin.png" class="rounded-circle m-3 img-fluid img-size" alt="Responsive image" style="width: 40px;" type="button">  
+            </a>
+        
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=573228105522&text=Hola,%20deseo%20pedir%20un%20domicilio">
+                <img src="../assets/img/whatsapp.png" class="rounded-circle m-3 img-fluid img-size" alt="Responsive image" style="width: 40px;" type="button">  
+            </a>
+
+            <a target="_blank" href="mailto:cjmartinez2212@gmail.com">
+                <img src="../assets/img/gmail.png" class="rounded-circle m-3 img-fluid img-size" alt="Responsive image" style="width: 40px;" type="button">  
+            </a>
+
+            <!--fin footer-->
+            <div class="text-center">
+                © Copyright 2021 Cyndi Martínez. Todos los derechos reservados.
+            </div>
+        </div>
+    </div>
+</div>
